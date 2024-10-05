@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 px-4 sm:px-20 md:px-28 lg:px-36">
       <div className="navbar-start">
-        <Link href="/" className="text-3xl font-medium flex items-center">
-          Globe Game
+        <Link href="/" className="text-3xl font-medium flex items-center font-orbitron">
+          Cataclysm
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

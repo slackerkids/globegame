@@ -9,11 +9,12 @@ module.exports = {
     extend: {
       fontFamily: {
         orbitron: ["orbitron", "sans-serif"],
+        manrope: ["manrope", "sans-serif"],
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("@tailwindcss/typography")],
   daisyui: {
     themes: ["cupcake"],
-  }
+  },
 };
