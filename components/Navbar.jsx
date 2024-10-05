@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Cataclysms</a>
+            <Link href="/cataclysm">Cataclysms</Link>
           </li>
           <li>
             <a>Character</a>
@@ -56,7 +56,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <button className="btn btn-primary">How to play it?</button>
+        <Link href="how-to-play" className="btn btn-primary">How to play it?</Link>
       </div>
     </div>
   );
