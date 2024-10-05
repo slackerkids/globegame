@@ -7,11 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        orbitron: ["orbitron", "sans-serif"],
       },
     },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["cupcake"],
+  }
 };

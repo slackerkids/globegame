@@ -7,29 +7,19 @@ const Navbar = () => {
     <div className="navbar bg-base-100 px-4 sm:px-20 md:px-28 lg:px-36">
       <div className="navbar-start">
         <Link href="/" className="text-3xl font-medium flex items-center">
-          <Image
-            src="./assets/images/logo.svg"
-            width={40}
-            height={40}
-            className="w-10 rounded-lg shadow-2xl shadow-blue-500 mx-1 mr-2"
-            alt="Querative Logo"
-          />
-          Querative
+          Globe Game
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>How it works?</a>
+            <a>Cataclysms</a>
           </li>
           <li>
-            <a>Pricing</a>
+            <a>Character</a>
           </li>
           <li>
-            <a>Contact</a>
-          </li>
-          <li>
-            <a>Blog</a>
+            <a>Tech</a>
           </li>
         </ul>
       </div>
@@ -56,34 +46,17 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-200 rounded-box z-[1] mt-3 w-32 p-2 shadow-md"
           >
             <li>
-              <a className="p-2">How it works?</a>
+              <a className="p-2">Cataclysm</a>
             </li>
             <li>
-              <a className="p-2">Pricing</a>
+              <a className="p-2">Character</a>
             </li>
             <li>
-              <a className="p-2">Contact</a>
-            </li>
-            <li>
-              <a className="p-2">Blog</a>
+              <a className="p-2">Tech</a>
             </li>
           </ul>
         </div>
-        {session?.user ? (
-          <Link className="btn btn-outline" href="/search">
-            Go to App
-          </Link>
-        ) : (
-          <>
-            {isLoading ? (
-              <ButtonLoading />
-            ) : (
-              <button className="btn btn-primary" onClick={handleSignIn}>
-                Sign In
-              </button>
-            )}
-          </>
-        )}
+        <button className="btn btn-primary">How to play it?</button>
       </div>
     </div>
   );
