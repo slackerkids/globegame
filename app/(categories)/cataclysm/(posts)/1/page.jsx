@@ -1,8 +1,8 @@
-import React from 'react'
+import { DroughtPost } from "@/components/cataclysm/CataclysmPosts"
 
 const Post1 = () => {
   return (
-    <div>Post1</div>
+   <DroughtPost />
   )
 }
 
