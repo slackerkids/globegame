@@ -8,17 +8,17 @@ const CharTypes = [
     description:
       "Can carry any amount of equipment.",
     image: "/images/char/land_cover.png",
-    category: "",
-    link: "/cataclysm/1",
+    category: "Soil",
+    link: "/character/1",
   },
   {
     id: 2,
-    title: "Flooding",
+    title: "Soil Specialist",
     description:
-      "Overflow of water onto normally dry land. Can occur rapidly (flash floods) or slowly, causing widespread damage to property and infrastructure.",
-    image: "/images/cataclysm/flooding.jpg",
-    category: "Water-Related Disaster",
-    link: "/cataclysm/2",
+      "May return one card from the discard pile by discarding an unwanted card from your hand.",
+    image: "/images/char/soil_specialist.png",
+    category: "Soil",
+    link: "/character/2",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const CharTypes = [
 const Cataclysm = () => {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-4xl font-bold mb-8 mt-10">Cataclysm Types</h1>
+      <h1 className="text-4xl font-bold mb-8 mt-10">Characters</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {CharTypes.map((post) => (
           <div
