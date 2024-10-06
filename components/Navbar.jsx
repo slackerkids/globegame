@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -19,7 +18,7 @@ const Navbar = () => {
             <Link href="/character">Character</Link>
           </li>
           <li>
-            <a>Tech</a>
+            <Link href="/tech">Tech</Link>
           </li>
         </ul>
       </div>
@@ -52,7 +51,7 @@ const Navbar = () => {
               <Link href="/character" className="p-2">Character</Link>
             </li>
             <li>
-              <a className="p-2">Tech</a>
+              <Link href="/tech" className="p-2">Tech</Link>
             </li>
           </ul>
         </div>

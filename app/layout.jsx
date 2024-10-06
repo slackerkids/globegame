@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Globe Game",
+  title: "Cataclysm",
   description: "Nasa Space App Challenge Hackaton Globe Game",
 };
 
