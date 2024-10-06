@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link href="/cataclysm">Cataclysms</Link>
+            <Link href="/cataclysm">Cataclysm</Link>
           </li>
           <li>
             <Link href="/character">Character</Link>
