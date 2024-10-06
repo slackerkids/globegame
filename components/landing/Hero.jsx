@@ -12,7 +12,7 @@ const Hero = () => {
           priority
         />
       </div>
-      <div className="relative z-10 flex items-center justify-center min-h-screen bg-black/50">
+      <div className="relative z-1 flex items-center justify-center min-h-screen bg-black/50">
         <div className="hero-content text-center text-white">
           <div className="max-w-md sm:max-w-xl lg:max-w-2xl">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
