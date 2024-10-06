@@ -1,8 +1,8 @@
-import { TsunamiPost } from "@/components/cataclysm/CataclysmPosts"
+import { BioEcologist } from "@/components/character/CharPosts"
 
 const Post3 = () => {
   return (
-   <TsunamiPost />
+   <BioEcologist />
   )
 }
 

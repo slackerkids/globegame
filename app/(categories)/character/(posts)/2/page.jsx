@@ -1,8 +1,8 @@
-import { FloodPost } from "@/components/cataclysm/CataclysmPosts"
+import { SoilSpecialist } from "@/components/character/CharPosts"
 
 const Post2 = () => {
   return (
-   <FloodPost />
+   <SoilSpecialist />
   )
 }
 

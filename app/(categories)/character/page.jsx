@@ -22,30 +22,30 @@ const CharTypes = [
   },
   {
     id: 3,
-    title: "Tsunamis",
+    title: "Bio-Ecologist",
     description:
-      "Giant ocean waves triggered by underwater earthquakes or landslides. Can travel across entire oceans, devastating coastal areas with little warning.",
-    image: "/images/cataclysm/tsunami.jpg",
-    category: "Water-Related Disaster",
-    link: "/cataclysm/3",
+      "Can gain a level for the help in battle ",
+    image: "/images/char/bio_eco.png",
+    category: "Unique",
+    link: "/character/3",
   },
   {
     id: 4,
-    title: "Hurricanes",
+    title: "Metereologist",
     description:
-      " Powerful tropical storms with winds exceeding 74 mph. Cause damage through high winds, storm surges, and heavy rainfall.",
-    image: "/images/cataclysm/hurricane.jpg",
-    category: "Atmospheric Event",
-    link: "/cataclysm/4",
+      "Has the ability to draw when fighting cataclysms. Can also discard cards to strengthen themselves during battle.",
+    image: "/images/char/meteorologist.png",
+    category: "Disaster-specialist",
+    link: "/character/4",
   },
   {
     id: 5,
-    title: "Tornadoes",
+    title: "Climatologist",
     description:
-      "Violently rotating columns of air, capable of destroying buildings and lifting heavy objects. Often occur with little warning.",
-    image: "/images/cataclysm/tornado.jpg",
-    category: "Atmospheric Event",
-    link: "/cataclysm/5",
+      "Has the ability to choose a card from the top two when lifting once every two turns ",
+    image: "/images/char/climotologist.png",
+    category: "Unique",
+    link: "/character/5",
   },
 ];
 

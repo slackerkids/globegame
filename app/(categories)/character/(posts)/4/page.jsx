@@ -1,9 +1,9 @@
-import { HurricanePost } from "@/components/cataclysm/CataclysmPosts"
+import { Meteorologist } from "@/components/character/CharPosts"
 
-const Post3 = () => {
+const Post4 = () => {
   return (
-   <HurricanePost />
+   <Meteorologist />
   )
 }
 
-export default Post3
+export default Post4

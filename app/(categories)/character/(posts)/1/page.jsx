@@ -1,8 +1,8 @@
-import { DroughtPost } from "@/components/cataclysm/CataclysmPosts"
+import { LandCoverSpecialist } from "@/components/character/CharPosts"
 
 const Post1 = () => {
   return (
-   <DroughtPost />
+   <LandCoverSpecialist />
   )
 }
 
