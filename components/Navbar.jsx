@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link href="/cataclysm">Cataclysms</Link>
           </li>
           <li>
-            <a>Character</a>
+            <Link href="/character">Character</Link>
           </li>
           <li>
             <a>Tech</a>
@@ -46,10 +46,10 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-200 rounded-box z-[1] mt-3 w-32 p-2 shadow-md"
           >
             <li>
-              <a className="p-2">Cataclysm</a>
+              <Link href="/cataclysm" className="p-2">Cataclysm</Link>
             </li>
             <li>
-              <a className="p-2">Character</a>
+              <Link href="/character" className="p-2">Character</Link>
             </li>
             <li>
               <a className="p-2">Tech</a>
